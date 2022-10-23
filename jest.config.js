@@ -16,6 +16,7 @@ module.exports = {
   coveragePathIgnorePatterns: [
     '/src/index.js',
   ],
+  testFailureExitCode: 0,
   reporters: [
     'default',
     [
